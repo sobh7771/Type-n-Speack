@@ -1,0 +1,16 @@
+.voice-select {
+	width: 100%;
+	font: inherit;
+	padding: 0.8rem 1.6rem;
+	border-radius: 4px;
+	color: #495057;
+	background-color: #fff;
+	border: 1px solid transparent;
+	transition: 0.2s;
+}
+
+.voice-select:focus {
+	border-color: #80bdff;
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+	outline: none;
+}
